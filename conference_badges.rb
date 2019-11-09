@@ -21,7 +21,12 @@ end
 
 def assign_room(rooms)
   conf_speaker[] = rooms
-  rooms.
+  rooms.index do |rooms|
+  conf_speaker << rooms
+return badge_maker
+end
+
+
   
     
     
