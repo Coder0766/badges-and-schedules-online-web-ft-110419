@@ -12,10 +12,7 @@ def batch_badge_creator(array,speaker)
   conf_speaker = []
   array.each do |x|
   conf_speaker << (x)
-
-batch_badge_creator
-
-
+return batch_badge_creator
 
 
 def assign_rooms(array, rooms)
@@ -26,8 +23,7 @@ return badge_maker
 
 
 
-
-def printer[]
+def printer
   prints batch_badge_creator
   prints assign_rooms
  end
