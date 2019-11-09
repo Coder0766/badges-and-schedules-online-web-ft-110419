@@ -19,7 +19,7 @@ end
 
 
 
-def assign_room(rooms)
+def assign_rooms(rooms)
   conf_speaker[] = rooms
   rooms.index do |rooms|
   conf_speaker << rooms
@@ -28,15 +28,9 @@ end
 
 
   
-    
-    
 
 
-
-def square_array(array)
-  new_array = []
-  array.each do |x|
-    new_array << (x*x)
-  end
-  new_array
-end
+def printer
+  prints batch_badge_creator
+  prints assign_rooms
+ end
