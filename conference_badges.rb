@@ -5,7 +5,7 @@
 def badge_maker(array,names)
   array.new = []
   puts "Hello, my name is #{name}."
-  return badge_maker
+  return formatted_badge
 end
 
 # def batch_badge_creator(array,speaker)
