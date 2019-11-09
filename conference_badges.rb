@@ -16,12 +16,12 @@ def batch_badge_creator(attendees)
 end  
   
 
-# def assign_rooms(array, rooms)
-#   conf_speaker[] = rooms
-#   rooms.index do |rooms|
-#   conf_speaker << rooms
-# badge_maker
-# end
+def assign_rooms(array, rooms)
+  conf_speaker[] = rooms
+  rooms.index do |rooms|
+  conf_speaker << rooms
+badge_maker
+end
 
 
 # def printer
