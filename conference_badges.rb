@@ -1,5 +1,3 @@
-require 'pry'
-
 #iterate through an array
 #output the results in diff. ways
 
