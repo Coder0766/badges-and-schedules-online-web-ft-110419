@@ -27,6 +27,6 @@ end
 
 
 def printer
-  prints batch_badge_creator
-  prints assign_rooms
-
+ $stdout batch_badge_creator do return
+ 
+ 
