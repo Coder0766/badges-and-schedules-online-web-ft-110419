@@ -9,6 +9,8 @@ end
 
 def batch_badge_creator(attendees)
   attendees = []
+  badge_maker = badges
+  badges = attendees
 end
   
 #   conf_speaker = []
