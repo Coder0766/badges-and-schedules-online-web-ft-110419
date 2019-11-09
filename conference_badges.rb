@@ -8,6 +8,8 @@ end
 
 
 def batch_badge_creator(attendees)
+  
+  
   conf_speaker = []
   array.each do |x|
   conf_speaker << (x)
