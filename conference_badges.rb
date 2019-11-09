@@ -2,7 +2,7 @@
 #output the results in diff. ways
 
 
-def badge_maker(name, formatted_badge)
+def badge_maker(array,name, formatted_badge)
   puts "Hello, my name is #{name}."
   return formatted_badge
 end
