@@ -15,10 +15,10 @@ def batch_badge_creator(attendees)
 end  
   
   
-  attendees = []
-  badge_maker = badges
-  badges = attendees
-  return badges
+  # attendees = []
+  # badge_maker = badges
+  # badges = attendees
+  # return badges
 
   
 #   conf_speaker = []
