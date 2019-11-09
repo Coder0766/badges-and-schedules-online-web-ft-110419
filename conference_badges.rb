@@ -4,10 +4,8 @@
 
 def badge_maker(name)
   puts "Hello, my name is #{name}"
-  badge_maker
 end
-
-
+badge_maker
 
 def batch_badge_creator(array)
   conf_speaker = []
