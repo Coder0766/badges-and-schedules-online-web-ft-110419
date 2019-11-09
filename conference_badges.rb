@@ -2,9 +2,8 @@
 #output the results in diff. ways
 
 
-def badge_maker(array, name, formatted_badge)
+def badge_maker(name)
   puts "Hello, my name is #{name}."
-  return formatted_badge
 end
 
 # def batch_badge_creator(array,speaker)
