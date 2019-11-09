@@ -2,7 +2,7 @@
 #output the results in diff. ways
 
 
-def badge_maker{:names}
+def badge_maker"names"
   puts "Hello, my name is #{name}."
 end
 
