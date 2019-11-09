@@ -12,9 +12,9 @@ def batch_badge_creator(array)
   conf_speaker = []
   array.each do |x|
   conf_speaker << (x)
-  end
+
 batch_badge_creator
-end
+
 
 
 
@@ -23,7 +23,7 @@ def assign_rooms(rooms)
   rooms.index do |rooms|
   conf_speaker << rooms
 return badge_maker
-end
+
 
 
 
@@ -32,3 +32,5 @@ def printer
   prints assign_rooms
  end
 end
+end
+end 
