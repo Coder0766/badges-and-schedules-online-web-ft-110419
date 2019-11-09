@@ -26,7 +26,7 @@ rooms
 end
 
 
-def printer
+def printer(attendees)
 print_array = []
 assign_rooms.each_with_index << print_array
 end
