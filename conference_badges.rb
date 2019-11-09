@@ -3,7 +3,7 @@
 
 
 def badge_maker(array,names)
-  %w[] = new
+  array.new = []
   puts "Hello, my name is #{name}."
 return badge_maker
 
