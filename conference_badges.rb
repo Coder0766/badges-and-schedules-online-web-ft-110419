@@ -27,7 +27,10 @@ end
 
 
 def printer
- $stdout batch_badge_creator 
+print_array = []
+assign_rooms.each_with_index << print_array
+end
+ $stdout printer
 end
  
  
