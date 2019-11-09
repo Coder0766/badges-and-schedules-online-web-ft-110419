@@ -7,10 +7,31 @@ def badge_maker(name)
   badge_maker
 end
 
+
+
 def batch_badge_creator(array)
   conf_speaker = []
-  array.each 
+  array.each do |x|
+  conf_speaker << (x)
+  end
+batch_badge_creator
 end
 
+
+
 def assign_room(rooms)
+  conf_speaker[] = rooms
+  rooms.
+  
     
+    
+
+
+
+def square_array(array)
+  new_array = []
+  array.each do |x|
+    new_array << (x*x)
+  end
+  new_array
+end
