@@ -26,7 +26,4 @@ return badge_maker
 def printer
   prints batch_badge_creator
   prints assign_rooms
-       end
-    end
-  end
-end
+    
