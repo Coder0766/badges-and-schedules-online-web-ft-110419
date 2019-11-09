@@ -27,7 +27,7 @@ end
 
 
 def printer
- $stdout batch_badge_creator do 
+ $stdout batch_badge_creator 
 end
  
  
