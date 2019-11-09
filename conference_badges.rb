@@ -4,12 +4,11 @@ require 'pry'
 #output the results in diff. ways
 
 
-def badge_maker{}
-  :names{}
+def badge_maker{:names}
   puts "Hello, my name is #{name}."
 end
 
-return badge_maker(name)
+return badge_maker{:names}
 
 def batch_badge_creator(array)
   conf_speaker = []
