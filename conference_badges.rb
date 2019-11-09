@@ -6,7 +6,6 @@ require pry
 
 def badge_maker(name)
   puts "Hello, my name is #{name}."
-  binding.pry
 end
 
 return badge_maker(name)
