@@ -8,11 +8,15 @@ end
 
 
 def batch_badge_creator(attendees)
+      
+  
+  
+  
   attendees = []
   badge_maker = badges
   badges = attendees
   return badges
-end
+
   
 #   conf_speaker = []
 #   array.each do |x|
