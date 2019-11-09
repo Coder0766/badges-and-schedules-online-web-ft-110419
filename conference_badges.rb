@@ -27,4 +27,4 @@ def printer
   prints batch_badge_creator
   prints assign_rooms
 end
-printer
+end
