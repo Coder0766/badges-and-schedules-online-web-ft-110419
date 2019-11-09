@@ -27,10 +27,8 @@ end
 
 
 def printer(attendees)
-print_array = []
-assign_rooms.each_with_index << print_array
-end
- $stdout printer
-end
- 
+batch_badge_creator(attendees).each {|badge_messages| puts badge_messages }
+
+assign_rooms(attendees).each {room_assignment| puts room_assignment }
+end 
  
